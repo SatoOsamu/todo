@@ -1,0 +1,30 @@
+.todo-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #f9fafb;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.stats-text {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.clear-completed-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #ef4444;
+  background: transparent;
+  border: 1px solid #ef4444;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.clear-completed-btn:hover {
+  background: #ef4444;
+  color: white;
+}
